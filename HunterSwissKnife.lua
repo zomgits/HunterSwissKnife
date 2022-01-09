@@ -70,7 +70,7 @@ function CastSpellByName(spellName, onSelf)
     end
 
     -- ORIGINAL CAST: should not be called if the triggered and original action are exclusive
-    HSK_Original_CastSpellByName(spellName);
+    HSK_Original_CastSpellByName(spellName, onSelf);
 end
 
 
